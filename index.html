@@ -57,7 +57,7 @@
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
                     <div class="flex-shrink-0 flex items-center">
-                        <i class="fas fa-boxes text-green-600 text-2xl mr-2"></i>
+                        <img src="https://live.staticflickr.com/65535/54670772921_e7576599d6_n.jpg"class=" text-green-600 text-2xl mr-2 h-10 w-10"></i>
                         <span class="text-xl font-bold text-green-600">Neoteric Trading Services</span>
                     </div>
                 </div>
@@ -65,7 +65,8 @@
                     <a href="#home" class="nav-link text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
                     <a href="#services" class="nav-link text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Services</a>
                     <a href="#about" class="nav-link text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">About</a>
-                    <a href="#clients" class="nav-link text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Clients</a>
+                    <a href="./clients.html" class="nav-link text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Clients</a>
+                    <a href="./certificates.html" class="nav-link text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">B-BBEE Certificate</a>
                     <a href="#contact" class="bg-green-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-700 transition duration-300">Contact Us</a>
                 </div>
                 <div class="-mr-2 flex items-center md:hidden">
@@ -83,7 +84,8 @@
                 <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50">Home</a>
                 <a href="#services" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50">Services</a>
                 <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50">About</a>
-                <a href="#clients" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50">Clients</a>
+                <a href="./clients.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50">Clients</a>
+                <a href="./certificates.html" class="nav-link text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">B-BBEE Certificate</a>
                 <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-blue-600 hover:bg-blue-700">Contact Us</a>
             </div>
         </div>
@@ -94,16 +96,30 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-10 md:mb-0">
-                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">We love helping</h1>
-                    <p class="text-xl mb-8 text-blue-100">Our goal is to assist municipalities and SOE's by procuring goods and services that they struggle to procure.</p>
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">Looking for a CSD Compliant and Responsive Vendor that can Deliver Anything?</h1>
+                    <p class="text-xl mb-8 text-blue-100">Our main goal is to assist South African municipalities and SOE's by procuring goods and services that they struggle to procure.</p>
                     <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                         <a href="#contact" class="bg-white text-green-600 hover:bg-gray-100 px-6 py-3 rounded-md text-lg font-semibold text-center transition duration-300">Get Started</a>
                         <a href="#services" class="border-2 border-white text-white hover:bg-white hover:text-green-600 px-6 py-3 rounded-md text-lg font-semibold text-center transition duration-300">Our Services</a>
                     </div>
                 </div>
-                <div class="md:w-1/2 flex justify-center animate-bounce-slow">
-                    <img src="https://live.staticflickr.com/65535/54614886611_ff03ee3534_c.jpg" alt="Procurement illustration" class="rounded-lg shadow-2xl max-w-full h-auto">
-                </div>
+                <div class="flex flex-col items-center space-y-6">
+  <!-- First image with audio button -->
+  <div class="md:w-1/2 flex justify-center">
+    <img src="https://live.staticflickr.com/65535/54671108160_770b94eb86_w.jpg" alt="Procurement illustration" class="rounded-lg shadow-2xl max-w-full h-auto ml-10">
+    <button onclick="playAudio()" class="text-green-600 hover:text-green-800 text-3xl focus:outline-none ml-2">
+      🔊 
+    </button>  
+  </div>
+  <audio id="pronunciationAudio" src="https://dictionary.cambridge.org/media/english/uk_pron/c/cdo/cdo06/cdo0623ukneot2680.mp3"></audio>
+</br>
+</br>
+  <!-- Second image -->
+  <div class="md:w-1/2 flex justify-center">
+    <img src="https://live.staticflickr.com/65535/54675665542_da27f910e4_c.jpg" alt="Procurement illustration" class="rounded-lg shadow-2xl max-w-full h-auto">
+  </div>
+</div>
+
             </div>
         </div>
     </section>
@@ -122,7 +138,7 @@
                 </div>
                 <div class="p-6 bg-white rounded-lg shadow-md">
                     <div class="text-4xl font-bold text-green-600 mb-2">100%</div>
-                    <div class="text-gray-600">Response Rate</div>
+                    <div class="text-gray-600">Responsive Rate</div>
                 </div>
                 <div class="p-6 bg-white rounded-lg shadow-md">
                     <div class="text-4xl font-bold text-green-600 mb-2">1000+ </div>
@@ -138,40 +154,21 @@
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Procurement Services</h2>
                 <div class="w-20 h-1 bg-green-600 mx-auto mb-6"></div>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">We assist by offering comprehensive support to municipalities and SOEs. Our experienced team can assist in product identification (finding the products you need and contacting the relevant suppliers), pricing (to allow you to get an idea of what it would cost before advertising a RFQ, Formal Quotation or Tender in the public domain), responsive bidding (we will respond with a compliant bid) and speedy delivery once we have received the purchase order. </p>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto text-justify">We assist by offering comprehensive procurement support to municipalities and SOEs. Our experienced team can assist in product identification (finding the products you need and contacting the relevant suppliers),  responsive bidding (we will respond with a compliant bid) and swift delivery once the purchase order has been issued. We always aim to be responsive, competitive and provide value for money!</p><br>
+                <p  class="text-xl max-w-xl mx-auto"><a href="./clients.html" class="bg-white text-green-600 hover:bg-gray-100 px-6 py-3 rounded-md text-lg font-semibold text-center transition duration-300">Check out these examples</a>
+                </p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                
-                <!-- Service 5 -->
-                <div class="service-card bg-white p-8 rounded-lg shadow-lg border border-gray-100 transition duration-300">
-                    <div class="text-green-600 mb-4">
-                        <i class="fas fa-cogs text-4xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Procurement Optimization</h3>
-                    <p class="text-gray-600 mb-4">We streamline your procurement processes to increase efficiency, reduce costs, and improve compliance across your organization.</p>
-                    <ul class="text-gray-600 space-y-2">
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Process mapping & redesign</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Technology implementation</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Policy & compliance framework</span>
-                        </li>
-                    </ul>
-                </div>
+             
                 <!-- Service 1 -->
                 <div class="service-card bg-white p-8 rounded-lg shadow-lg border border-gray-100 transition duration-300">
                     <div class="text-green-600 mb-4">
                         <i class="fas fa-search-dollar text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3">Strategic Procurement</h3>
-                    <p class="text-gray-600 mb-4">We are a 100% black owned local SMME, partly woman owned, partly youth owned. </p>
+                    <p class="text-gray-600 mb-4 ">We are a 100% black owned local SMME, partly woman owned, partly youth owned. </p>
                     <ul class="text-gray-600 space-y-2">
                         <li class="flex items-start">
                             <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
@@ -241,7 +238,7 @@
                         <i class="fas fa-phone-alt text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3">Emergency Supplier</h3>
-                    <p class="text-gray-600 mb-4">We can procure and supply any good or service after hours and with short turnaround times. Contact us in times of emergency!</p>
+                    <p class="text-gray-600 mb-4">We can procure and supply any goods or service after hours and with short turnaround times. Contact us in times of emergency!</p>
                     <ul class="text-gray-600 space-y-2">
                         <li class="flex items-start">
                             <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
@@ -263,19 +260,41 @@
                         <i class="fas fa-trophy text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3">Prioritising Compliance</h3>
-                    <p class="text-gray-600 mb-4">By focusing on staying compliant, we ensure that we can offer our services, without delay. Our knowledge of public procurement, ensured that we are well versed in the rules, regulations and policies that govern public procurement. </p>
+                    <p class="text-gray-600 mb-4 ">By focusing on staying compliant, we ensure that we can offer our services, without delay. Our knowledge of public procurement, ensures that we are well versed in the rules, regulations and policies that govern public procurement. </p>
                     <ul class="text-gray-600 space-y-2">
                         <li class="flex items-start">
                             <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Operating within public procurement rules & regulations</span>
+                            <span>CSD registered</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Tax Compliant</span>
+                            <span>Tax compliant</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Up to date paperwork</span>
+                            <span>MFMA and PFMA compliant procurement</span>
+                        </li>
+                    </ul>
+                </div>
+                   <!-- Service 5 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-lg border border-gray-100 transition duration-300">
+                    <div class="text-green-600 mb-4">
+                        <i class="fas fa-cogs text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Procurement Optimization</h3>
+                    <p class="text-gray-600 mb-4">We streamline your procurement processes to increase efficiency, reduce costs, and improve compliance across your organization.</p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Process mapping & redesign</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Technology implementation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Policy & compliance framework</span>
                         </li>
                     </ul>
                 </div>
@@ -293,42 +312,43 @@
                 <div class="lg:w-1/2">
                     <h2 class="text-3xl font-bold text-gray-900 mb-6">About Neoteric Trading Services</h2>
                     <div class="w-20 h-1 bg-green-600 mb-6"></div>
-                    <p class="text-gray-600 mb-6">Founded in 2019 by a young entrepreneur who identified a gap in the procurement of State Owned Enterprises and municipalities, Neoteric Trading Services has grown into a dynamic procurement agent serving entities constrained by procurement regulations.  </p>
-                    <p class="text-gray-600 mb-6">We are dedicated to enhancing operational efficiency by getting clients what they need when they struggle to procure it, removing the obstacle of ineffective procurement as a result of procurement regulations.</p>
-                    
+                    <p class="text-gray-600 mb-6 text-justify">Founded in 2019 by a young entrepreneur who identified a gap in the procurement of State Owned Enterprises and municipalities. With all the bureaucracy and red-tape in government procurement, we noticed the delays and inefficiencies in public procurement. Municipalities were advertising RFQs and getting little or no responses. Neoteric Trading Services has grown into a dynamic procurement agent addressing this gap that entities constrained by procurement regulations are facing.  </p>
+                                      
                     <div class="mb-8">
                         <h3 class="text-xl font-semibold text-gray-900 mb-4">Our Mission</h3>
-                        <p class="text-gray-600">To bridge the gap of your specific need and we will deliver - providing strategic procurement solutions that enhance efficiency, reduce costs, and foster sustainable supplier relationships.</p>
+                        <p class="text-gray-600">To bridge the gap of what municipalities and SOEs need, and what is available in the open market.</p>
                     </div>
                     
                     <div class="mb-8">
                         <h3 class="text-xl font-semibold text-gray-900 mb-4">Our Values</h3>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          <p class="text-gray-600">We pursue <b>ethical procurement</b> as a core value. Our NICE values are as follows:</p><br>
+                        <div class="grid grid-cols-1 md:grid-cols-1 gap-4">
+                              <div class="flex items-start">
+                                <div class="bg-green-100 p-2 rounded-full mr-3">
+                                    <i class="fas fa-lightbulb text-green-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-900 ml-2">Neoteric</h4>
+                                    <p class="text-gray-600 text-sm ml-2">We continuously seek new and innovative ways to serve our clients.</p>
+                                </div>
+                            </div>
                             <div class="flex items-start">
                                 <div class="bg-green-100 p-2 rounded-full mr-3">
                                     <i class="fas fa-handshake text-green-600"></i>
                                 </div>
                                 <div>
                                     <h4 class="font-medium text-gray-900">Integrity</h4>
-                                    <p class="text-gray-600 text-sm">We conduct business with honesty and transparency.</p>
+                                    <p class="text-gray-600 text-sm">We conduct business with honesty,  strong moral and ethical principles.</p>
                                 </div>
                             </div>
-                            <div class="flex items-start">
-                                <div class="bg-green-100 p-2 rounded-full mr-3">
-                                    <i class="fas fa-lightbulb text-green-600"></i>
-                                </div>
-                                <div>
-                                    <h4 class="font-medium text-gray-900">Innovation</h4>
-                                    <p class="text-gray-600 text-sm">We continuously seek better ways to serve our clients.</p>
-                                </div>
-                            </div>
+                          
                             <div class="flex items-start">
                                 <div class="bg-green-100 p-2 rounded-full mr-3">
                                     <i class="fas fa-users text-green-600"></i>
                                 </div>
                                 <div>
                                     <h4 class="font-medium text-gray-900">Collaboration</h4>
-                                    <p class="text-gray-600 text-sm">We work closely with clients to achieve shared success.</p>
+                                    <p class="text-gray-600 text-sm">We listen attentively and work closely with clients to achieve shared success.</p>
                                 </div>
                             </div>
                             <div class="flex items-start">
@@ -337,84 +357,20 @@
                                 </div>
                                 <div>
                                     <h4 class="font-medium text-gray-900">Excellence</h4>
-                                    <p class="text-gray-600 text-sm">We strive for the highest standards in everything we do.</p>
+                                    <p class="text-gray-600 text-sm">We strive to deliver the highest standards in everything we do.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                  
                     
-                    <a href="#contact" class="inline-block bg-green-600 text-white px-6 py-3 rounded-md font-medium hover:bg-green-700 transition duration-300">Learn More About Us</a>
+                    <a href="#contact" class="inline-block bg-green-600 text-white px-6 py-3 rounded-md font-medium hover:bg-green-700 transition duration-300">Contact Us</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Clients Section -->
-    <section id="clients" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">Trusted By Industry Leaders</h2>
-                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">We've helped organizations across various industries transform their procurement functions and achieve significant cost savings.</p>
-            </div>
-            
-            <!-- Client Logos -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center mb-16">
-                <div class="flex justify-center p-4 hover:grayscale-0 transition duration-300">
-                    <img src="https://images.seeklogo.com/logo-png/42/1/iziko-south-african-museum-logo-png_seeklogo-425465.png" alt="Client logo" class="h-18 object-contain">
-                </div>
-                <div class="flex justify-center p-4  hover:grayscale-0 transition duration-300">
-                    <img src="https://thevillageguy.co.za/wp-content/uploads/2018/10/Drakenstein-Mun-logo_900-1.jpg" alt="Client logo" class="h-21 object-contain">
-                </div>
-                <div class="flex justify-center p-4 hover:grayscale-0 transition duration-300">
-                    <img src="https://www.govpage.co.za/uploads/2/4/0/5/24052997/overberg-district-municipality_orig.jpg" alt="Client logo" class="h-17 object-contain">
-                </div>
-                <div class="flex justify-center p-4 hover:grayscale-0 transition duration-300">
-                    <img src="https://climatecouncil.com/wp-content/uploads/City-of-Cape-Town.png" alt="Client logo" class="h-22 object-contain">
-                </div>
-                <div class="flex justify-center p-4 hover:grayscale-0 transition duration-300">
-                    <img src="https://olico.org/wp-content/uploads/2018/05/Western-Cape-Government-Logo.png" alt="Client logo" class="h-15 object-contain">
-                </div>
-                <div class="flex justify-center p-4 hover:grayscale-0 transition duration-300">
-                    <img src="https://bvm.gov.za/wp-content/uploads/2018/09/logo02.png" alt="Client logo" class="h-14 object-contain">
-                </div>
-                <div class="flex justify-center p-4 hover:grayscale-0 transition duration-300">
-                    <img src="https://tse4.mm.bing.net/th/id/OIP.TvoeardeBtskrsuc7czx1AAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Client logo" class="h-16 w-16 object-contain">
-                </div>
-                <div class="flex justify-center p-4 hover:grayscale-0 transition duration-300">
-                    <img src="https://learnwithicleiafrica.org/wp-content/uploads/2021/11/Matzikama.png" alt="Client logo" class="h-18 w-20 object-contain">
-                </div>
-            </div>
-            
-           
-            <!-- Case Studies -->
-            <div class="text-center">
-                <h3 class="text-2xl font-bold text-gray-900 mb-8">Success Stories</h3>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <!-- Case Study 1 -->
-                    <div class="bg-green-50 p-6 rounded-lg text-left">
-                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                            <i class="fas fa-industry text-green-600 text-xl"></i>
-                        </div>
-                        <h4 class="font-bold text-gray-900 mb-2">Manufacturing Client Case Study</h4>
-                        <p class="text-gray-600 mb-4">Reduced procurement costs by 28% while improving supplier quality and delivery performance for a mid-sized manufacturer.</p>
-                        
-                    </div>
-                    
-                    <!-- Case Study 2 -->
-                    <div class="bg-green-50 p-6 rounded-lg text-left">
-                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                            <i class="fas fa-hospital text-green-600 text-xl"></i>
-                        </div>
-                        <h4 class="font-bold text-gray-900 mb-2">Ink Cartridge Case Study</h4>
-                        <p class="text-gray-600 mb-4">Our team successfully sourced and secured ink cartridges for a discontinued printer model, overcoming significant supply chain challenges by procuring the product from an international supplier on the other side of the world.</p>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <!-- CTA Section -->
     <section class="py-20 bg-green-600 text-white">
@@ -441,7 +397,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-900 mb-1">Our Office</h4>
-                                <p class="text-gray-600">Belmont Avenue <br>Cape Town, Western Cape</p>
+                                <p class="text-gray-600">Belmont Avenue <br>Cape Town, </br>Western Cape</p>
                             </div>
                         </div>
                         
@@ -450,8 +406,8 @@
                                 <i class="fas fa-phone-alt text-green-600"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-gray-900 mb-1">Call Us</h4>
-                                <p class="text-gray-600">+27 (74) 088-6505<br>Mon-Fri, 8am-4pm </p>
+                                <h4 class="font-bold text-gray-900 mb-1">Call or WhatsApp Us</h4>
+                                <p class="text-gray-600">+27 (74) 088-6505</p>
                             </div>
                         </div>
                         
@@ -461,28 +417,12 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-900 mb-1">Email Us</h4>
-                                <p class="text-gray-600">salaaghuddeenjacobs@gmail.com<br>rugayajacobs9@gmail.com</p>
+                                <p class="text-gray-600">neoterictradingservices@gmail.com<br>salaaghuddeenjacobs@gmail.com<br>rugayajacobs9@gmail.com</p>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="mt-10">
-                        <h4 class="font-bold text-gray-900 mb-4">Follow Us</h4>
-                        <div class="flex space-x-4">
-                            <a href="#" class="bg-green-100 text-green-600 hover:bg-green-600 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="#" class="bg-green-100 text-green-600 hover:bg-green-600 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="bg-green-100 text-green-600 hover:bg-green-600 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" class="bg-green-100 text-green-600 hover:bg-green-600 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
+                  
                 </div>
                 
                 <div class="lg:w-1/2">
@@ -514,7 +454,7 @@
                             <div>
                                 <label for="service" class="block text-gray-700 font-medium mb-2">Service Interested In</label>
                                 <select id="service" name="service" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
-                                    <option value="">Select a service</option>
+                                    <option value="">Request a Quote</option>
                                     <option value="Strategic Sourcing">Strategic Procurement</option>
                                     <option value="Supplier Management">Supplier Management</option>
                                     <option value="Procurement Optimization">Procurement Optimization</option>
@@ -540,10 +480,10 @@
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Neoteric Trading Services</h3>
-                    <p class="text-gray-400">Delivering strategic procurement solutions that drive efficiency, reduce costs, and maximize value for your business.</p>
+                    <p class="text-gray-400 text-justify">Delivering strategic procurement solutions that drive efficiency, reduce costs, and maximize value for your business.</p>
                 </div>
                 
                 <div>
@@ -552,19 +492,19 @@
                         <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
                         <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Services</a></li>
                         <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
-                        <li><a href="#clients" class="text-gray-400 hover:text-white transition duration-300">Clients</a></li>
+                        <li><a href="./clients.html" class="text-gray-400 hover:text-white transition duration-300">Clients</a></li>
                         <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
                     </ul>
-                </div>
-                
+                </div>               
                 <div>
                     <h4 class="font-bold text-lg mb-4" >Services</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Strategic Sourcing</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Contract Management</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Spend Analysis</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Global Sourcing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Strategic Procurement</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Supplier Management</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Emergency Supplier</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Procurement Optimization</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Prioritising Compliance</a></li>
                     </ul>
                 </div>                
             </div>
@@ -691,6 +631,11 @@
       form.reset();
     }, 200);
   });
+</script>
+<script>
+  function playAudio() {
+    document.getElementById('pronunciationAudio').play();
+  }
 </script>
 
 </body>
