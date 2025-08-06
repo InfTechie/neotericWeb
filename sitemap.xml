@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>neoterictradingservices.co.za</loc>
+    <loc>https://neoterictradingservices.co.za/</loc>
     <lastmod>2025-08-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>neoterictradingservices.co.za/https://neoterictradingservices.co.za/clients.html</loc>
+    <loc>https://neoterictradingservices.co.za/clients.html</loc>
     <lastmod>2025-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>neoterictradingservices.co.za/https://neoterictradingservices.co.za/certificates.html</loc>
+    <loc>https://neoterictradingservices.co.za/certificates.html</loc>
     <lastmod>2025-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>neoterictradingservices.co.za/https://neoterictradingservices.co.za/index.html</loc>
+    <loc>https://neoterictradingservices.co.za/index.html</loc>
     <lastmod>2025-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
